@@ -1,0 +1,10 @@
+{
+  "bad_pattern_error_code": "E_BAD_PATTERN",
+  "pairs": [
+    {"pattern": "a*c", "text": "abbbc"},
+    {"pattern": "a?c", "text": "ac"},
+    {"pattern": "[a-c]x", "text": "bx"},
+    {"pattern": "a\\*c", "text": "a*c"},
+    {"pattern": "ab", "text": "abc"}
+  ]
+}
